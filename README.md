@@ -19,6 +19,8 @@ Google Earth Engine scripts by Ahmad Ammar, grouped by topic: about 40,000 lines
 
 `MANIFEST.csv` maps each file to its original path. Slashes in original paths became `__`.
 
+`history/` holds the full git history of the original repositories as bundles (restore with `git clone <file>.bundle`), `assets/` records the Earth Engine assets, `tools/` holds the export and audit scripts, and `RUNBOOK.md` lists the commands. Asset data itself is not stored here.
+
 ## Using a script
 
 Paste it into the [Earth Engine Code Editor](https://code.earthengine.google.com). Many are working versions, kept as written, and have not been tidied or re-tested. Some read private assets, which you would replace with your own data. Some import libraries by other authors through `require()`, including `users/fitoprincipe/geetools`, `users/dmlmont/spectral`, `users/gena/packages` and `users/elacerda/geet`.
