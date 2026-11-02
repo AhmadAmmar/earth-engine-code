@@ -1,0 +1,212 @@
+old,new
+air-quality/AirPolML__AER Cart.js,air-quality/aer_cart.js
+air-quality/AirPolML__AER RF.js,air-quality/aer_rf.js
+air-quality/AirPolML__AQ ML Pending.js,air-quality/aq_ml_pending.js
+air-quality/AirPolML__AQ.js,air-quality/aq.js
+air-quality/AirPolML__AQ1.js,air-quality/ch4_lahore.js
+air-quality/AirPolML__AQ3.js,air-quality/no2_lahore.js
+air-quality/AirPolML__CH4 Cart.js,air-quality/ch4_cart.js
+air-quality/AirPolML__CH4 RF.js,air-quality/ch4_rf.js
+air-quality/AirPolML__CO Cart.js,air-quality/co_cart.js
+air-quality/AirPolML__CO RF.js,air-quality/co_rf.js
+air-quality/AirPolML__HCHO Cart.js,air-quality/hcho_cart.js
+air-quality/AirPolML__HCHO RF.js,air-quality/hcho_rf.js
+air-quality/AirPolML__NO2 Cart.js,air-quality/no2_cart.js
+air-quality/AirPolML__NO2 RF.js,air-quality/no2_rf.js
+air-quality/AirPolML__NO2 Smile Random Forest.js,air-quality/no2_smile_random_forest.js
+air-quality/AirPolML__O3 Cart.js,air-quality/o3_cart.js
+air-quality/AirPolML__O3 RF.js,air-quality/o3_rf.js
+air-quality/AirPolML__Sentinel-5p Air Quality Monitoring.js,air-quality/sentinel_5p_air_quality_monitoring.js
+air-quality/AirPolML__SO2 Cart.js,air-quality/so2_cart.js
+air-quality/AirPolML__SO2 RF.js,air-quality/so2_rf.js
+air-quality/AirQualityDist.js,air-quality/air_quality_dist.js
+air-quality/GeoHealthLST.js,air-quality/geo_health_lst.js
+air-quality/GeoHealthNDVI.js,air-quality/geo_health_ndvi.js
+air-quality/GeoHealthNO2.js,air-quality/geo_health_no2.js
+air-quality/GeoHealthTemp.js,air-quality/geo_health_temp.js
+air-quality/Lahore NO2 Weekend vs Weekdays.js,air-quality/lahore_no2_weekend_vs_weekdays.js
+gedi-mangroves/agbAvitabileFilled.js,gedi-mangroves/agb_avitabile_filled.js
+gedi-mangroves/agbCMSFilled.js,gedi-mangroves/agb_cmsfilled.js
+gedi-mangroves/agbESAFilled.js,gedi-mangroves/agb_esafilled.js
+gedi-mangroves/agbWHRCFilled.js,gedi-mangroves/agb_whrcfilled.js
+gedi-mangroves/Extract Samples__AJK Extract Samples.js,gedi-mangroves/ajk_extract_samples.js
+gedi-mangroves/Extract Samples__Extract bare without urban and water.js,gedi-mangroves/extract_bare_without_urban_and_water.js
+gedi-mangroves/Extract Samples__Extract Snow without water.js,gedi-mangroves/extract_snow_without_water.js
+gedi-mangroves/Extract Samples__Extract urban points.js,gedi-mangroves/extract_urban_points.js
+gedi-mangroves/Extract Samples__Extract water without snow.js,gedi-mangroves/extract_water_without_snow.js
+gedi-mangroves/Extract Samples__How to extract training data.js,gedi-mangroves/how_to_extract_training_data.js
+gedi-mangroves/Extract Samples__Snow Points.js,gedi-mangroves/snow_points.js
+gedi-mangroves/GEDI__GEDI CHM Integer.js,gedi-mangroves/gedi_chm_integer.js
+gedi-mangroves/GEDI__GEDI2.js,gedi-mangroves/gedi_l2a_canopy_height.js
+gedi-mangroves/GEDI__GEDI3.js,gedi-mangroves/gedi_l2a_indus_export.js
+gedi-mangroves/GEDI__GEDI4.js,gedi-mangroves/gedi_dem_transect_comparison.js
+gedi-mangroves/GEDI__JPL CHM.js,gedi-mangroves/jpl_chm.js
+gedi-mangroves/GEDI__Reducers.js,gedi-mangroves/reducers.js
+gedi-mangroves/Thesis NDVI Time Series.js,gedi-mangroves/thesis_ndvi_time_series.js
+gedi-mangroves/Thesis__agbAvitabileFilled.js,gedi-mangroves/thesis_agb_avitabile_filled.js
+gedi-mangroves/Thesis__agbCMSFilled.js,gedi-mangroves/thesis_agb_cmsfilled.js
+gedi-mangroves/Thesis__agbESAFilled.js,gedi-mangroves/thesis_agb_esafilled.js
+gedi-mangroves/Thesis__agbWHRCFilled.js,gedi-mangroves/thesis_agb_whrcfilled.js
+gedi-mangroves/Thesis__Canopy Height Prediction Results.js,gedi-mangroves/thesis_canopy_height_prediction_results.js
+gedi-mangroves/Thesis__CHM ML Online Example.js,gedi-mangroves/thesis_chm_ml_online_example.js
+gedi-mangroves/Thesis__CTHK.js,gedi-mangroves/thesis_cthk.js
+gedi-mangroves/Thesis__ETH Global Canopy Height.js,gedi-mangroves/thesis_eth_global_canopy_height.js
+gedi-mangroves/Thesis__Filter GEDI Points.js,gedi-mangroves/thesis_filter_gedi_points.js
+gedi-mangroves/Thesis__Final - AllIndices.js,gedi-mangroves/thesis_all_indices.js
+gedi-mangroves/Thesis__Final - Export Regression.js,gedi-mangroves/thesis_export_regression.js
+gedi-mangroves/Thesis__Final - ExportToDrive.js,gedi-mangroves/thesis_export_to_drive.js
+gedi-mangroves/Thesis__Final - Extract - GEDI AGB Quality Samples with High NDVI.js,gedi-mangroves/thesis_extract_gedi_agb_quality_samples_with_high_ndvi.js
+gedi-mangroves/Thesis__Final - Extract - GEDI RH Quality Samples.js,gedi-mangroves/thesis_extract_gedi_rh_quality_samples.js
+gedi-mangroves/Thesis__Final - Model - GEDIagb.js,gedi-mangroves/thesis_model_gediagb.js
+gedi-mangroves/Thesis__Final - Model - ObsAGB-ObsHeight-onRH98.js,gedi-mangroves/thesis_model_obs_agb_obs_height_on_rh98.js
+gedi-mangroves/Thesis__Final - Model - ObsAGB-ObsHeight-onValCHM.js,gedi-mangroves/thesis_model_obs_agb_obs_height_on_val_chm.js
+gedi-mangroves/Thesis__Final - Model - ObsAGB-rh75.js,gedi-mangroves/thesis_model_obs_agb_rh75.js
+gedi-mangroves/Thesis__Final - Model - ObsAGB-rh98.js,gedi-mangroves/thesis_model_obs_agb_rh98.js
+gedi-mangroves/Thesis__Final - Model - ObsAGB-ValCHM.js,gedi-mangroves/thesis_model_obs_agb_val_chm.js
+gedi-mangroves/Thesis__Final - Prediction - GEDI AGB with RH.js,gedi-mangroves/thesis_prediction_gedi_agb_with_rh.js
+gedi-mangroves/Thesis__Final - Prediction - GEDI AGB with varImp - Error.js,gedi-mangroves/thesis_prediction_gedi_agb_with_var_imp_error.js
+gedi-mangroves/Thesis__Final - Prediction - GEDI AGB with varImp.js,gedi-mangroves/thesis_prediction_gedi_agb_with_var_imp.js
+gedi-mangroves/Thesis__Final - Prediction - GEDI RH - Error.js,gedi-mangroves/thesis_prediction_gedi_rh_error.js
+gedi-mangroves/Thesis__Final - Prediction - GEDI RH.js,gedi-mangroves/thesis_prediction_gedi_rh.js
+gedi-mangroves/Thesis__Final - Prediction - Obs AGB Val.js,gedi-mangroves/thesis_prediction_obs_agb_val.js
+gedi-mangroves/Thesis__Final - Prediction - Obs AGB varImp.js,gedi-mangroves/thesis_prediction_obs_agb_var_imp.js
+gedi-mangroves/Thesis__Final - Prediction - Obs AGB with impVar.js,gedi-mangroves/thesis_prediction_obs_agb_with_imp_var.js
+gedi-mangroves/Thesis__Final - Prediction - Obs AGB with RH.js,gedi-mangroves/thesis_prediction_obs_agb_with_rh.js
+gedi-mangroves/Thesis__Final - Prediction - Obs Height.js,gedi-mangroves/thesis_prediction_obs_height.js
+gedi-mangroves/Thesis__Final - Prediction - Old GEDI RH.js,gedi-mangroves/thesis_prediction_old_gedi_rh.js
+gedi-mangroves/Thesis__Final - Regression - GEDI AGBD with official.js,gedi-mangroves/thesis_regression_gedi_agbd_with_official.js
+gedi-mangroves/Thesis__Final - Regression - GEDI AGBD with uploaded.js,gedi-mangroves/thesis_regression_gedi_agbd_with_uploaded.js
+gedi-mangroves/Thesis__Final - Regression - GEDI Height with raster.js,gedi-mangroves/thesis_regression_gedi_height_with_raster.js
+gedi-mangroves/Thesis__GEDI merge w YT.js,gedi-mangroves/thesis_gedi_merge_w_yt.js
+gedi-mangroves/Thesis__GlobalExploration.js,gedi-mangroves/thesis_global_exploration.js
+gedi-mangroves/Thesis__Mangrove Cover Indus Delta Corrected.js,gedi-mangroves/thesis_mangrove_cover_indus_delta_corrected.js
+gedi-mangroves/Thesis__Mangrove Cover Indus Delta Mudassar.js,gedi-mangroves/thesis_mangrove_cover_indus_delta_mudassar.js
+gedi-mangroves/Thesis__ValCHM.js,gedi-mangroves/thesis_val_chm.js
+general/Assignment4.js,general/water_forest_landsat_assignment.js
+general/Count Annually.js,general/count_annually.js
+general/Export Mean Images.js,general/export_mean_images.js
+general/Extract Multi-Annual Monthly Means over Polygons.js,general/extract_multi_annual_monthly_means_over_polygons.js
+general/GEE Final.js,land-cover/ajk_land_cover_course_final.js
+general/GEE Final2.js,land-cover/ajk_land_cover_course_final_points.js
+general/Hobby__S2.js,general/islamabad_sentinel_export.js
+general/Plots.js,general/plots.js
+land-cover/BillionTree.js,land-cover/billion_tree.js
+land-cover/BillionTree2.js,land-cover/billion_tree_sentinel2.js
+land-cover/EE-FP-Greenness Index.js,land-cover/ee_fp_greenness_index.js
+land-cover/Greenness.js,land-cover/greenness.js
+land-cover/Greenness1.js,land-cover/greenness_landsat_multisensor.js
+land-cover/Greenness3.js,land-cover/greenness_modis_districts.js
+land-cover/Irrigated.js,land-cover/irrigated.js
+land-cover/LahoreLC.js,land-cover/lahore_lc.js
+land-cover/LahoreLC10m.js,land-cover/lahore_lc10m.js
+land-cover/LCnML__Accuracy.js,land-cover/accuracy.js
+land-cover/LCnML__AJK Landcover 2020.js,land-cover/ajk_landcover_2020.js
+land-cover/LCnML__AJK.js,land-cover/ajk.js
+land-cover/LCnML__Hyperparameterization.js,land-cover/hyperparameterization.js
+land-cover/LCnML__ML Based Regression Modelling.js,land-cover/ml_based_regression_modelling.js
+land-cover/PakGreenness.js,land-cover/pak_greenness.js
+land-cover/Sentinel-2 LC Indices.js,land-cover/sentinel_2_lc_indices.js
+land-cover/UrbanArea.js,land-cover/urban_area.js
+land-cover/VegArea.js,land-cover/veg_area.js
+learning/1.js,learning/landsat8_first_steps.js
+learning/Assignment4.js,learning/water_forest_landsat_assignment.js
+learning/Calculating_Rainfall_Deviation__04b_Calculate_Monthly_Deviation_(complete) (copy).js,learning/calculating_rainfall_deviation_04b_calculate_monthly_deviation.js
+learning/Cluster.js,learning/cluster.js
+learning/EE-FP.js,learning/ee_fp.js
+learning/EVI Differentiation.js,learning/evi_differentiation.js
+learning/geetTry.js,learning/geet_try.js
+learning/Germany.js,learning/germany.js
+learning/GlacierMappin.js,learning/glacier_mappin.js
+learning/GLIMS.js,learning/glims.js
+learning/JS_Basics.js,learning/js_basics.js
+learning/Learning1.js,learning/learning1.js
+learning/MODIS_NTSG_MOD16A2_105.js,learning/modis_ntsg_mod16_a2_105.js
+learning/SkySat.js,learning/sky_sat.js
+learning/Test.js,learning/test.js
+monsoon/monsoon.js,monsoon/rainfall_enso_iod_analysis.js
+monsoon/monsoon10.js,removed: empty
+monsoon/monsoon11.js,monsoon/ocean_regions_missing_families.js
+monsoon/monsoon12.js,monsoon/chirps_refresh_2026.js
+monsoon/monsoon2.js,monsoon/rainfall_enso_iod_monthly_table.js
+monsoon/monsoon3.js,monsoon/circulation_indices.js
+monsoon/monsoon4.js,monsoon/land_surface_cryosphere_indices.js
+monsoon/monsoon5.js,monsoon/ocean_convection_aerosol_indices.js
+monsoon/monsoon6.js,monsoon/predictors_update_2026.js
+monsoon/monsoon7.js,removed: empty
+monsoon/monsoon8.js,monsoon/core_reexport_corrected.js
+monsoon/monsoon9.js,monsoon/core_chirps_corrected_regions.js
+monsoon/Monthly Rainfall.js,monsoon/islamabad_rainfall_monthly_chirps.js
+monsoon/prec.js,monsoon/twin_cities_rainfall_chirps_pentad.js
+monsoon/prec2.js,land-cover/vegetation_gimms_3g.js
+monsoon/Regional Monthly 3.js,air-quality/no2_districts_monthly.js
+monsoon/Regional Multi-Yearly Monthly Mean.js,air-quality/no2_provinces_multiyear_monthly_mean.js
+monsoon/Regional Yearly Monthly Means 2.js,air-quality/no2_provinces_yearly_monthly_means.js
+monsoon/southAsia.js,monsoon/south_asia_heatwave_2026.js
+phd-building-energy/PhD__Belfast_display.js,phd-building-energy/belfast_display.js
+phd-building-energy/PhD__Extract.js,phd-building-energy/extract.js
+phd-building-energy/PhD__gbem_composites.js,phd-building-energy/gbem_composites.js
+phd-building-energy/PhD__geometryFix.js,phd-building-energy/geometry_fix.js
+phd-building-energy/PhD__L7 LST.js,phd-building-energy/l7_lst.js
+phd-building-energy/PhD__L8 Daytime.js,phd-building-energy/l8_daytime.js
+phd-building-energy/PhD__S1.js,removed: empty
+phd-building-energy/PhD__S2 composite median.js,phd-building-energy/s2_composite_median.js
+phd-building-energy/PhD__S2 composite medoid.js,phd-building-energy/s2_composite_medoid.js
+phd-building-energy/PhD__ThermalCorr.js,phd-building-energy/thermal_corr.js
+preprocessing/DSM.js,preprocessing/dsm.js
+preprocessing/GLCM.js,preprocessing/glcm.js
+preprocessing/imNormalization.js,preprocessing/im_normalization.js
+preprocessing/indices.js,preprocessing/indices.js
+preprocessing/L5L8.js,preprocessing/landsat5_8_pakistan.js
+preprocessing/L8_preprocess.js,preprocessing/l8_preprocess.js
+preprocessing/Landsat Corrections Assignment.js,preprocessing/landsat_corrections_assignment.js
+preprocessing/Landsat Corrections.js,preprocessing/landsat_corrections.js
+preprocessing/Landsat Harmonization Manual.js,preprocessing/landsat_harmonization_manual.js
+preprocessing/Landsat Harmonized.js,preprocessing/landsat_harmonized.js
+preprocessing/Normalization Coded.js,preprocessing/normalization_coded.js
+preprocessing/Normalization using Function.js,preprocessing/normalization_using_function.js
+preprocessing/PCA.js,preprocessing/pca.js
+preprocessing/preprocessing.js,preprocessing/preprocessing.js
+preprocessing/Sentinel Aug NDVI.js,preprocessing/sentinel_aug_ndvi.js
+preprocessing/Sentinel Cloud Free Mask Method.js,preprocessing/sentinel_cloud_free_mask_method.js
+preprocessing/Sentinel Cloud Free Median Method.js,preprocessing/sentinel_cloud_free_median_method.js
+preprocessing/Sentinel Pak Cloud Free 2018.js,preprocessing/sentinel_pak_cloud_free_2018.js
+preprocessing/Spectral Responses.js,preprocessing/spectral_responses.js
+sar/floodMapping.js,sar/flood_mapping.js
+sar/SARExperiments__SAR Asc Des Composite.js,sar/sar_asc_des_composite.js
+sar/SARExperiments__SAR Correction Testing.js,sar/sar_correction_testing.js
+sar/SARExperiments__SAR Corrections.js,sar/sar_corrections.js
+sar/SARExperiments__SAR Percentile.js,sar/sar_percentile.js
+sar/SARExperiments__SAR Polar Monitoring.js,sar/sar_polar_monitoring.js
+sar/SARExperiments__SAR Preprocessing.js,sar/sar_preprocessing.js
+sar/SARExperiments__SAR Radar Viz 2.js,sar/sar_radar_viz_2.js
+sar/SARExperiments__SAR Radar Viz.js,sar/sar_radar_viz.js
+sar/SARExperiments__SAR Viz.js,sar/sar_viz.js
+sar/Ship Lines.js,sar/ship_lines.js
+third-pole/thirdpole.js,third-pole/domain_boundary_dem_slope.js
+third-pole/thirdpole2.js,third-pole/domain_boundary_variants.js
+third-pole/thirdpole3.js,third-pole/snow_trends_mod10a2_first_pass.js
+third-pole/thirdpole4.js,third-pole/snow_trends_mod10a2_charts_first.js
+third-pole/thirdpole5.js,third-pole/snow_8day_core_export.js
+timelapse/Timelapse__GAIA Timelapse GIF.js,timelapse/gaia_timelapse_gif.js
+timelapse/Timelapse__Landsat SLC Harmonized NDBI Timelapse.js,timelapse/landsat_slc_harmonized_ndbi_timelapse.js
+timelapse/Timelapse__Mapping Fire Events with Animation.js,timelapse/mapping_fire_events_with_animation.js
+timelapse/Timelapse__NDVI Timelapse Fix for NDVI Only.js,timelapse/ndvi_timelapse_fix_for_ndvi_only.js
+timelapse/Timelapse__NDVI Timelapse.js,timelapse/ndvi_timelapse.js
+timelapse/Timelapse__Timelapse Timestamp 2.js,timelapse/timelapse_timestamp_2.js
+timelapse/Timelapse__Timelapse with Timestamp.js,timelapse/timelapse_with_timestamp.js
+timelapse/Timelapse__Urban Expansion GIF.js,timelapse/urban_expansion_gif.js
+urban/Khi Urbanization Comparison - Nightlight.js,urban/khi_urbanization_comparison_nightlight.js
+urban/L8 LST 1.js,urban/landsat8_lst_pakistan.js
+urban/L8 LST.js,urban/l8_lst.js
+urban/Lahore Built Area.js,urban/lahore_built_area.js
+urban/lahoreEra5.js,urban/lahore_era5land_tmax_1950_present.js
+urban/lahoreTmax.js,urban/lahore_tmax.js
+urban/lahoreTmaxEra5.js,urban/lahore_era5land_tmax_1979_present.js
+urban/Lhr Urbanization - Nightlight.js,urban/lhr_urbanization_nightlight.js
+urban/MODIS LST.js,urban/modis_lst.js
+urban/PhD__L8 Nighttime.js,urban/l8_nighttime.js
+urban/Regression - Nighttime Lights.js,urban/regression_nighttime_lights.js
+urban/Regression Linear Fit - Nighttime Lights.js,urban/regression_linear_fit_nighttime_lights.js
+urban/Urbanization in Deserted areas.js,urban/urbanization_in_deserted_areas.js
+water-quality/Sentinel-2 NDVI over existing water mask.js,water-quality/sentinel_2_ndvi_over_existing_water_mask.js
+water-quality/Sentinel-2 Water Quality.js,water-quality/sentinel_2_water_quality.js
