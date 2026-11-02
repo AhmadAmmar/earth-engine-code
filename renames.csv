@@ -119,7 +119,7 @@ learning/Germany.js,learning/germany.js
 learning/GlacierMappin.js,learning/glacier_mappin.js
 learning/GLIMS.js,learning/glims.js
 learning/JS_Basics.js,learning/js_basics.js
-learning/Learning1.js,learning/learning1.js
+learning/Learning1.js,learning/early_exercise.js
 learning/MODIS_NTSG_MOD16A2_105.js,learning/modis_ntsg_mod16_a2_105.js
 learning/SkySat.js,learning/sky_sat.js
 learning/Test.js,learning/test.js
@@ -178,7 +178,7 @@ sar/SARExperiments__SAR Corrections.js,sar/sar_corrections.js
 sar/SARExperiments__SAR Percentile.js,sar/sar_percentile.js
 sar/SARExperiments__SAR Polar Monitoring.js,sar/sar_polar_monitoring.js
 sar/SARExperiments__SAR Preprocessing.js,sar/sar_preprocessing.js
-sar/SARExperiments__SAR Radar Viz 2.js,sar/sar_radar_viz_2.js
+sar/SARExperiments__SAR Radar Viz 2.js,sar/sar_radar_viz_smoothed.js
 sar/SARExperiments__SAR Radar Viz.js,sar/sar_radar_viz.js
 sar/SARExperiments__SAR Viz.js,sar/sar_viz.js
 sar/Ship Lines.js,sar/ship_lines.js
@@ -192,7 +192,7 @@ timelapse/Timelapse__Landsat SLC Harmonized NDBI Timelapse.js,timelapse/landsat_
 timelapse/Timelapse__Mapping Fire Events with Animation.js,timelapse/mapping_fire_events_with_animation.js
 timelapse/Timelapse__NDVI Timelapse Fix for NDVI Only.js,timelapse/ndvi_timelapse_fix_for_ndvi_only.js
 timelapse/Timelapse__NDVI Timelapse.js,timelapse/ndvi_timelapse.js
-timelapse/Timelapse__Timelapse Timestamp 2.js,timelapse/timelapse_timestamp_2.js
+timelapse/Timelapse__Timelapse Timestamp 2.js,timelapse/timelapse_landsat_timestamp.js
 timelapse/Timelapse__Timelapse with Timestamp.js,timelapse/timelapse_with_timestamp.js
 timelapse/Timelapse__Urban Expansion GIF.js,timelapse/urban_expansion_gif.js
 urban/Khi Urbanization Comparison - Nightlight.js,urban/khi_urbanization_comparison_nightlight.js

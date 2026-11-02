@@ -30,3 +30,5 @@ Paste it into the [Earth Engine Code Editor](https://code.earthengine.google.com
 Scripts written by Ahmad Ammar are under the MIT licence. Some scripts, especially in `scripts/learning`, began as course or tutorial exercises and remain the work of their original authors, including [Spatial Thoughts' End-to-End course](https://courses.spatialthoughts.com/); those are not relicensed here.
 
 More projects: [ahmadammar.github.io/projects.html](https://ahmadammar.github.io/projects.html)
+
+Script names say what each script does. `renames.csv` maps every earlier name, such as `thirdpole3.js`, to its current one.

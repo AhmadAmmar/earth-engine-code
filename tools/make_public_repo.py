@@ -52,3 +52,5 @@ print("to review:")
 for x in flags:
     print(" ", x)
 print("asset paths:", Counter(a for r in SRC for f in r.rglob("*.js") for a in re.findall(r"""["'](users/[A-Za-z0-9_]+|projects/[a-z0-9-]+)""", f.read_text(encoding="utf8", errors="replace"))).most_common(10))
+
+# afterwards run tools/rename_scripts.py so that scripts keep their descriptive names
