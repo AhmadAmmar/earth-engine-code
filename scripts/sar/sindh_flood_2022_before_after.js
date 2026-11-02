@@ -21,3 +21,8 @@ Map.addLayer(pre, {min: -22, max: -2}, 'September 2021');
 Map.addLayer(post, {min: -22, max: -2}, 'September 2022');
 Map.addLayer(post.lt(-14.1).and(pre.gte(-14.1)).and(occurrence.lt(50)).selfMask(), {palette: ['E69F00']}, 'Flood at -14.1 dB');
 Export.image.toDrive({image: stack, description: 'sindh_flood_100m', folder: 'sar_manual', region: box, crs: 'EPSG:32642', scale: 100, maxPixels: 1e10});
+
+// The usual course of the Indus
+var rivers = ee.FeatureCollection('WWF/HydroSHEDS/v1/FreeFlowingRivers').filterBounds(box).filter(ee.Filter.gte('DIS_AV_CMS', 500));
+Map.addLayer(rivers.style({color: '00E5FF', width: 1.5}), {}, 'River course');
+Export.table.toDrive({collection: rivers, description: 'indus_river_lines', folder: 'sar_manual', fileFormat: 'GeoJSON'});
