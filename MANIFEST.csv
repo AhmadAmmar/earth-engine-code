@@ -211,3 +211,10 @@ learning,SkySat.js,SkySat.js,Learning
 learning,Test.js,Test.js,Learning
 land-cover,UrbanArea.js,UrbanArea.js,Learning
 land-cover,VegArea.js,VegArea.js,Learning
+sar,london_reading_radar.js,london_reading_radar.js,"written 2026-11-02, paired with Python"
+sar,sindh_flood_2022_before_after.js,sindh_flood_2022_before_after.js,"written 2026-11-02, paired with Python"
+third-pole,snow_duration_yearly_metrics.js,snow_duration_yearly_metrics.js,"written 2026-11-02, paired with Python"
+third-pole,snow_change_trend_test.js,snow_change_trend_test.js,"written 2026-11-02, paired with Python"
+third-pole,snow_subbasin_yearly_table.js,snow_subbasin_yearly_table.js,"written 2026-11-02, paired with Python"
+third-pole,snow_area_8day_export.js,snow_area_8day_export.js,"written 2026-11-02, paired with Python"
+gedi-mangroves,plot_predictors_and_products.js,plot_predictors_and_products.js,"written 2026-11-02, paired with Python"
