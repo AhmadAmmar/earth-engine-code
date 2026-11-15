@@ -21,7 +21,8 @@ function monthly(v, y, m) {
   var days = ee.List.sequence(0, end.difference(start, 'day').subtract(1));
   var daily = ee.ImageCollection(days.map(function (d) {
     var d0 = start.advance(d, 'day');
-    return c.filterDate(d0, d0.advance(1, 'day')).mean().multiply(spec[2]);
+    var day = c.filterDate(d0, d0.advance(1, 'day'));
+    return ee.Image(ee.Algorithms.If(day.size(), day.mean().multiply(spec[2]), ee.Image().select([])));  // empty days dropped below
   })).filter(ee.Filter.listContains('system:band_names', spec[1]));
   return daily.mean().rename('mean').addBands(daily.count().rename('n')).toFloat();
 }
