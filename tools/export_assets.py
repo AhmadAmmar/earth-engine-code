@@ -16,11 +16,13 @@ import ee
 
 
 def name_for(path):
+    """File-safe export name of an asset path (project or user prefix dropped, other characters as __)."""
     short = re.sub(r"^projects/[^/]+/assets/|^users/[^/]+/", "", path)
     return re.sub(r"[^A-Za-z0-9_-]+", "__", short)
 
 
 def image_task(path, name, folder):
+    """A Drive export task for an image asset at its own CRS and scale, and the asset's metadata."""
     image = ee.Image(path)
     info = image.getInfo()
     bands = info["bands"]
@@ -40,11 +42,13 @@ def image_task(path, name, folder):
 
 
 def table_task(path, name, folder):
+    """A Drive export task for a table asset as GeoJSON, and the asset's metadata."""
     table = ee.FeatureCollection(path)
     return ee.batch.Export.table.toDrive(collection=table, description=name[:100], folder=folder, fileNamePrefix=name, fileFormat="GeoJSON"), ee.data.getAsset(path)
 
 
 def main(project, inventory, out, folder, *flags):
+    """Create Drive export tasks for every asset in the inventory and record them in out (--start also starts them)."""
     start = "--start" in flags
     ee.Initialize(project=project)
     out = Path(out)

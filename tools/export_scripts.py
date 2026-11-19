@@ -13,10 +13,12 @@ from pathlib import Path
 
 
 def safe(part):
+    """A path part with characters Windows forbids replaced by _, no trailing dots or spaces."""
     return re.sub(r'[<>:"\\|?*]', "_", part).rstrip(" .") or "_"
 
 
 def main(repo, out):
+    """Copy every script in a cloned Earth Engine script repository at HEAD to out, with file-safe unique names and .js."""
     repo, out = Path(repo), Path(out)
     git = ["git", "-C", str(repo), "-c", "core.quotepath=off"]
     head = subprocess.run(git + ["rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()

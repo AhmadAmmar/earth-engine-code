@@ -55,6 +55,7 @@ MAP = {
 
 
 def tidy(rel):
+    """A clearer file name for an exported script: owner prefix and 'Final - ' removed, thesis scripts prefixed."""
     folder, name = rel.split("/", 1)
     stem = name[:-3]
     stem = re.sub(r"^[^_]*?__(Final - )?", "thesis_" if name.startswith("Thesis__") else "", stem)
@@ -65,6 +66,7 @@ def tidy(rel):
 
 
 def main():
+    """Plan readable, unique names for every exported script and write the old-to-new table."""
     rows, used = [], set()
     for p in sorted(S.rglob("*.js")):
         rel = p.relative_to(S).as_posix()

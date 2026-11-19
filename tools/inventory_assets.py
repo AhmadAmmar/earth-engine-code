@@ -9,6 +9,7 @@ import ee
 
 
 def walk(root):
+    """Yield every asset under a root, following folders and image collections, 1,000 per page."""
     token = None
     while True:
         params = {"pageSize": 1000}
@@ -25,6 +26,7 @@ def walk(root):
 
 
 def main(project, out, *roots):
+    """List every asset under the roots with its type and size to out, with totals by type."""
     ee.Initialize(project=project)
     totals = {}
     with open(out, "w", newline="", encoding="utf8") as f:
